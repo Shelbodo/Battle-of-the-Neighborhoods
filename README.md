@@ -1,2 +1,3 @@
 # Battle-of-the-Neighborhoods
 IBM based project
+In this project, I use data science methods to figure out what would be a good location to open a new fish market in the city of Toronto. By first scraping the neighborhood data of Toronto from Wikipedia using Beautiful Soup and importing the data into a dataframe. We then merge this dataframe to another dataframe that contains the longitude and latitude coodinates. Next we use the Foursquare API to find venues of seafood restaurants to get an idea of demand in the area of Toronto. Next we use clustering to filter the data into areas that have seafood restaurants. To visualize the data we Folium to create a map of the clustering data.
